@@ -10,6 +10,7 @@ namespace DayOneAPIClient
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
