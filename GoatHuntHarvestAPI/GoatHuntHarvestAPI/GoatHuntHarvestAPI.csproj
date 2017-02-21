@@ -160,6 +160,9 @@
     <EmbeddedResource Include="Migrations\201702211952344_Initial.resx">
       <DependentUpon>201702211952344_Initial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702212018367_AddingHarvestData.resx">
+      <DependentUpon>201702212018367_AddingHarvestData.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -194,6 +197,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\HarvestController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -202,6 +206,10 @@
     <Compile Include="Migrations\201702211952344_Initial.cs" />
     <Compile Include="Migrations\201702211952344_Initial.Designer.cs">
       <DependentUpon>201702211952344_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702212018367_AddingHarvestData.cs" />
+    <Compile Include="Migrations\201702212018367_AddingHarvestData.Designer.cs">
+      <DependentUpon>201702212018367_AddingHarvestData.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationContext.cs" />
